@@ -1,0 +1,30 @@
+.mainMsg {
+  font-size: 3vw;
+}
+.buttonSize {
+  width: 120px;
+}
+#buttonContainer {
+  max-width: 450px;
+}
+
+@media screen and (max-width: 801px) {
+  .mainMsg {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .mainMsg {
+    font-size: 8vw;
+  }
+  .buttonSize {
+    width: 100%;
+  }
+  .buttonSize {
+    width: 180px;
+  }
+}
+
+
+

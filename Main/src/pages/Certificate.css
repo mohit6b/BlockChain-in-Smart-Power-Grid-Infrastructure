@@ -1,0 +1,63 @@
+.Certificate {
+  text-align: center;
+}
+
+.hoverColor:hover {
+  color: #0066cc;
+  border-color: #0066cc;
+}
+
+#certificateTableBackground {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+#certificateFileName {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: dimgrey;
+}
+
+#certificateSumitBtn {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  color: dimgrey;
+  border: 3px solid dimgrey;
+  border-radius: 8px;
+  font-size: 1.25em;
+  font-weight: 700;
+  cursor: pointer;
+}
+#certificateSumitBtn:hover {
+  color: #0066cc;
+  border-color: #0066cc;
+}
+
+#certificateTopPanel {
+  color: white;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: Dimgray;
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid dimgrey;
+  border-radius: 8px;
+  width: 130px;
+  height: 130px;
+  padding: 5px;
+}

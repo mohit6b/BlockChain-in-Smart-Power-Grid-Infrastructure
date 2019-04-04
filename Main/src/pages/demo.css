@@ -1,0 +1,34 @@
+.Demo {
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+
+.separator {
+  height: 5px;
+  width: 100%;
+  margin: 4em auto;
+  background: #207ad8;
+}
+
+#infoBar {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 24px;
+  color: white;
+}
+
+.infoCell {
+  height:35px;
+  text-align: left;
+  font-size: 20px;
+}
+.btnCell {
+  height:35px;
+  text-align: left;
+  cursor:pointer;
+  font-size: 20px;
+}
+.btnCell:hover {
+  color: Orange;
+}

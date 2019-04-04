@@ -1,0 +1,14 @@
+.logoFont {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 601px) {
+  .logoFont {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+
+

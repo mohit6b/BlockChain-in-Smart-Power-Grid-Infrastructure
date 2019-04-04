@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.lightPinkBG {
+  color: black;
+  background-color: lightPink;
+}
+
+.dimGrey {
+  color: dimGrey;
+}
+
+.orangeBG {
+  color: black;
+  background-color: orange;
+}
+
+.mediumAquaMarineBG {
+  color: black;
+  background-color: mediumAquaMarine;
+}
+.lightSkyBlueBG {
+  color: black;
+  background-color: lightSkyBlue;
+}
+.deepSkyBlueBG {
+  color: black;
+  background-color: #00aae3;
+}
+.floralWhiteBG {
+  color: dimGray;
+  background-color: floralWhite;
+}
+.greyBG {
+  color: black;
+  background-color: grey;
+}
+.lightRedBG {
+  color: black;
+  background-color: #ff6666;
+}
+
+#topBanner {
+  color: ForestGreen;
+  width: 95vw;
+  height: 35px;
+  border-style: solid;
+  border-color: ForestGreen;
+  border-width: 2px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+#earthLogo {
+  font-size: 60px;
+}
+#logoCell {
+  text-align: left;
+  height: 35px;
+  padding-left: 5px;
+  
+}
+.bannerCell {
+  text-align: center;
+  height: 35x;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 601px) {
+  #topBanner {
+    color: ForestGreen;
+    width: 95vw;
+    height: 35px;
+    border-style: solid;
+    border-color: ForestGreen ;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 6px;
+  }
+  .bannerCell {
+    text-align: center;
+    height: 35px;
+    
+    padding: 1px;
+    font-size: 16px;
+  }
+  #earthLogo {
+    font-size: 35px;
+  }
+  #logoCell {
+    text-align: left;
+    height: 35px;
+    
+    padding: 1px;
+  }
+}

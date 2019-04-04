@@ -1,0 +1,26 @@
+.chartRow { 
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  margin: auto;
+  width: 80vw;
+}
+.chartCell { 
+  align-items: center;
+  -webkit-align-items: center; /* Safari 7.0+ */
+  width: 60vw;
+}
+
+@media screen and (max-width: 1001px) {
+  .chartRow { 
+    display: block;
+    margin: auto;
+    width: 100vw;
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+  }
+  .chartCell { 
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    width: 100vw;
+  }
+}

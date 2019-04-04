@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.pointer {cursor: pointer;}
+
+.lightPinkBG {
+  color: black;
+  background-color: lightPink;
+}
+
+.dimGrey {
+  color: dimGrey;
+}
+
+.orangeBG {
+  color: black;
+  background-color: orange;
+}
+
+.mediumAquaMarineBG {
+  color: black;
+  background-color: mediumAquaMarine;
+}
+.lightSkyBlueBG {
+  color: black;
+  background-color: lightSkyBlue;
+}
+.deepSkyBlueBG {
+  color: black;
+  background-color: #00aae3;
+}
+.floralWhiteBG {
+  color: dimGray;
+  background-color: floralWhite;
+}
+.greyBG {
+  color: black;
+  background-color: grey;
+}
+.lightRedBG {
+  color: black;
+  background-color: #ff6666;
+}
+
+.h1Size {
+  font-size: 28px;
+}
+.h2Size {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 601px) {
+  .h1Size {
+    font-size: 24px;
+  }
+  .h2Size {
+    font-size: 20px;
+  }
+}

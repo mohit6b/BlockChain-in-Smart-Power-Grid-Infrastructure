@@ -1,0 +1,21 @@
+.buttonCell {
+  width:60px;
+  padding-left: 10px;
+  color: dimgrey;
+}
+.buttonCell:hover {
+  color: forestgreen;
+}
+
+.stickyClass {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 601px) {
+  .buttonCell {
+    width:50px;
+    padding-left: 10px;
+  }
+}

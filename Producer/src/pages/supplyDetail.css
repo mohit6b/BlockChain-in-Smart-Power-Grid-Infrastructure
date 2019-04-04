@@ -1,0 +1,28 @@
+#bodyContainerLarge {
+  display: block;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+#bodyContainerSmall {
+  display: block;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+.columnHeader {
+  font-weight: bold;
+  width: 30%;
+}
+
+@media screen and (max-width: 1301px) {
+  #bodyContainerLarge {
+    display: none;
+  }
+}
+@media screen and (min-width: 1301px) {
+
+  #bodyContainerSmall {
+    display: none;
+  }
+}

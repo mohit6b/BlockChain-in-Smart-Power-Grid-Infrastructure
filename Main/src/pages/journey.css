@@ -1,0 +1,25 @@
+.Main { 
+    display: flex;
+    border-radius: 20px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+.phoneMain {
+  border-radius: 10px;
+  width: 96vw;
+  margin: 0 auto;
+  background-color: white;
+}
+
+table td {
+  font-weight: bold;
+}
+
+.tableContainer {
+  padding-left: 50px;
+  width: 800px;
+}
+.phoneTableContainer {
+  width: 96vw;
+}

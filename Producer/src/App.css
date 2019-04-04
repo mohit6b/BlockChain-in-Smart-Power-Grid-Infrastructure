@@ -1,0 +1,13 @@
+.notification-block {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 400px;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  height: 350px;
+}
+
+.notification-header {
+
+}

@@ -1,0 +1,24 @@
+{
+  "name": "PowerBuyer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "semantic-ui-react": "^0.79.1",
+    "solc": "^0.4.21",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26",
+    "fs-extra": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
