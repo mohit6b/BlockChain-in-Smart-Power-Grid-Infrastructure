@@ -18,7 +18,7 @@
   npm install <br />
   npm start 
   
-4) Make sure the following :
+4). Make sure the following :
 
   Producer is running at http://localhost:3001  <br />
   Consumer is running at http://localhost:3002
