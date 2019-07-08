@@ -1,14 +1,14 @@
 # BlockChain-in-Smart-Power-Grid-Infrastructure
 
-1). Open terminal in Main directory and enter following :<br/>
+1). Open terminal in Main directory and enter following : <br/>
 
-  cd Main
-  npm install ,
+  cd Main <br />
+  npm install  <br />
   npm start
 
 2). Open terminal in Producer directory and enter following :
   
-  cd Producer
+  cd Producer <br />
   npm install ,
   npm start
   
