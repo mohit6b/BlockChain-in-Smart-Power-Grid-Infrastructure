@@ -1,6 +1,6 @@
 # BlockChain-in-Smart-Power-Grid-Infrastructure
 
-1). Open terminal in Main directory and enter following :\n
+1). Open terminal in Main directory and enter following :<br/>
 
   cd Main
   npm install ,
