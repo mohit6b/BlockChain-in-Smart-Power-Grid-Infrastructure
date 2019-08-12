@@ -10,7 +10,7 @@ const provider = new HDWalletProvider(
 );
 const web3 = new Web3(provider);
 
-//const web3 = new Web3(new Web3.providers.HttpProvider("http://ripe7q-dns-reg1.southindia.cloudapp.azure.com:8545"));
+//const web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1.com:8545"));
 
 const deploy = async () => {
   const accounts = await web3.eth.getAccounts();
