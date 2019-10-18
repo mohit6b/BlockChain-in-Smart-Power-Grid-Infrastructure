@@ -34,26 +34,7 @@ class Dashboard extends Component {
 
         <div className="w3-container w3-animate-left deepSkyBlueBG ">
           <div className="w3-container w3-padding w3-row centeredDiv" style={{width: '95vw', maxWidth: '900px'}}>
-            <div className="w3-container w3-padding w3-third">
-              <div className="w3-card-2 w3-round-large w3-padding w3-xlarge w3-center pointer lightPinkBG"
-                onClick={() => this.props.history.push('/records')}>
-                <i className="fa fa-bar-chart" aria-hidden="true" style={{fontSize: '120px'}}></i><br></br>Statistics
-              </div>
-            </div>
-            <div className="w3-container w3-padding w3-third">
-              <div className="w3-card-2 w3-round-large w3-padding w3-xlarge w3-center pointer mediumAquaMarineBG">
-                <i className="material-icons" style={{fontSize: '114px'}}>people_outline</i><br></br>Power Supply
-              </div>
-              </div>
-            <div className="w3-container w3-padding w3-third">
-              <div className="w3-card-2 w3-round-large w3-padding  w3-xlarge w3-center pointer orangeBG"
-                onClick={() => this.props.history.push('/certificate')}>
-                <i className="fa fa-address-card-o" aria-hidden="true" style={{fontSize: '120px'}}></i><br></br>Billing
-              </div>
-            </div>
-          </div>
-
-
+      
           <div className="w3-container w3-padding w3-row centeredDiv" style={{width: '95vw', maxWidth: '900px'}}>
             <div className="w3-container w3-padding w3-center">
               <div className="w3-card-2 w3-round-large w3-padding  w3-xlarge w3-center pointer lightSkyBlueBG"
@@ -68,6 +49,29 @@ class Dashboard extends Component {
                 User Section
               </div>
             </div>
+          </div>
+
+
+          <div className="w3-container w3-padding w3-third">
+              <div className="w3-card-2 w3-round-large w3-padding  w3-xlarge w3-center pointer orangeBG"
+                onClick={() => this.props.history.push('/certificate')}>
+                <i className="fa fa-address-card-o" aria-hidden="true" style={{fontSize: '120px'}}></i><br></br>Billing
+              </div>
+            </div>
+
+            <div className="w3-container w3-padding w3-third">
+              <div className="w3-card-2 w3-round-large w3-padding w3-xlarge w3-center pointer lightPinkBG"
+                onClick={() => this.props.history.push('/records')}>
+                <i className="fa fa-bar-chart" aria-hidden="true" style={{fontSize: '120px'}}></i><br></br>Statistics
+              </div>
+            </div>
+
+          <div className="w3-container w3-padding w3-third">
+              <div className="w3-card-2 w3-round-large w3-padding w3-xlarge w3-center pointer mediumAquaMarineBG">
+                <i className="material-icons" style={{fontSize: '114px'}}>people_outline</i><br></br>Power Supply
+              </div>
+            </div>
+
           </div>
 
 
