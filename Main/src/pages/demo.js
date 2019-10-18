@@ -94,7 +94,7 @@ class Demo extends Component {
               
                 <div className="infoCell">
                   <i className="fa fa-cube" aria-hidden="true" style={{fontSize: '25px'}}></i>&nbsp;
-                  Number of Blocks: <span style={{color: 'gold'}}>2563594</span>
+                  Number of Blocks: <span style={{color: 'gold'}}>5285671</span>
                 </div>
                 <div className="infoCell">
                 <i className="material-icons" style={{fontSize: '25px'}}>directions_boat</i>&nbsp;
