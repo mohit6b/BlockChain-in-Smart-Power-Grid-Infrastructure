@@ -36,7 +36,7 @@ class Home extends Component {
         <div className="w3-display-container w3-blue w3-center w3-animate-left" style={{height: '500px'}}>
           <div className="w3-container w3-display-middle">
             
-            <div className="mainMsg">IIIT Guwahati</div>
+            <div className="mainMsg">Smart Power Grid</div>
             
             <div className="mainMsg" style={{color: '#474747'}}>Manage Power Supply with IoTBlockChain</div>
             <br></br>
